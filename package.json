@@ -1,0 +1,24 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "assignment for cluep",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js ",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "kanchan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
